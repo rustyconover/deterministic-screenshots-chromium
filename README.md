@@ -20,8 +20,7 @@ be encoded into a h.264 video by ffmpeg.
 Chrome's functionality of controlling when webpage frames is not available in Mac OS X.  
 This program has only been tested on Linux. 
 
-This program uses chrome-aws-lambda to launch Chrome and ffmpeg-static to execute ffmpeg 
-static.  You may wish to change this behavior, it is left as an exercise to the reader. 
+This program uses [chrome-aws-lambda](https://www.npmjs.com/package/chrome-aws-lambda) to launch Chrome and [ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static) to execute ffmpeg.  You may wish to change this behavior, it is left as an exercise to the reader. 
 
 ## Usage
 
