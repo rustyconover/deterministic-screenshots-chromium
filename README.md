@@ -7,7 +7,9 @@ at which they refresh is faster than the rate at which screenshots can be captur
 you will be missing parts of the animation.
 
 This script uses what is called virtual time and frame control in chrome to control
-"time".  Virtual time can be faster or slower than real wall clock time.
+"time".  Virtual time can be faster or slower than real wall clock time.  But virtual
+time is deterministic, meaning that it is disconnected from real time and there will 
+be no lost frames because frames/screenshots are only rendered and time advanced as specified.
 
 Upon page load an initial budget of virtual time is assigned to the page, then once
 that virtual time has expired a screenshot is created.  Then another amount of virtual
