@@ -1,6 +1,4 @@
 # deterministic-screenshots-chromium
-Create deterministic screenshots with Chromium and virtual time.
-
 
 A program to create deterministic screenshots of webpages and render them as videos.
  
@@ -23,12 +21,7 @@ This program has only been tested on Linux.
 This program uses chrome-aws-lambda to launch Chrome and ffmpeg-static to execute ffmpeg 
 static.  You may wish to change this behavior, it is left as an exercise to the reader. 
 
-Author: Rusty Conover <rusty@luckydinosaur.com>
-
-Portions of this code were adapted from Chromium source as such this
-program is licensed under a BSD-like license.
-
-Usage:
+## Usage
 
 ```
 Usage: index.ts [options]
@@ -61,3 +54,9 @@ ts-node index.ts -u http://flipclockjs.com/
 ```
 
 Then view the resulting output.mp4 file that is produced.
+
+## Author 
+Author: Rusty Conover <rusty@luckydinosaur.com>
+
+Portions of this code were adapted from Chromium source as such this
+program is licensed under a BSD-like license.
