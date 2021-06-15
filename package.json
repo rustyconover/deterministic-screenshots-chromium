@@ -1,6 +1,6 @@
 {
   "name": "deterministic-screenshots-chromium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create deterministic screenshots using Chromium and virtual time",
   "main": "dist/index.js",
   "scripts": {
@@ -10,21 +10,21 @@
   "author": "Rusty Conover <rusty@luckydinosaur.com>",
   "license": "BSD",
   "dependencies": {
-    "@types/ffmpeg-static": "^2.0.0",
-    "@types/fluent-ffmpeg": "^2.1.11",
-    "@types/puppeteer": "^1.20.2",
+    "@types/ffmpeg-static": "^3.0.0",
+    "@types/fluent-ffmpeg": "^2.1.17",
+    "@types/puppeteer": "^5.4.3",
     "@types/request-promise-native": "^1.0.17",
-    "@types/yargs": "^13.0.3",
-    "chrome-aws-lambda": "^2.0.0",
-    "chrome-launcher": "^0.11.2",
-    "chrome-remote-interface": "^0.28.0",
-    "ffmpeg-static": "^2.7.0",
+    "@types/yargs": "^17.0.0",
+    "chrome-aws-lambda": "^10.0.0",
+    "chrome-launcher": "^0.14.0",
+    "chrome-remote-interface": "^0.30.0",
+    "ffmpeg-static": "^4.3.0",
     "fluent-ffmpeg": "^2.1.2",
-    "puppeteer": "^2.0.0",
-    "puppeteer-core": "^2.0.0",
+    "puppeteer": "^10.0.0",
+    "puppeteer-core": "^10.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "typescript": "^3.6.4",
-    "yargs": "^14.2.0"
+    "typescript": "^4.3.2",
+    "yargs": "^17.0.1"
   }
 }
